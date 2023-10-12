@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url(landscape-with-lake-mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+#emojis-list{
+    list-style: none;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    padding-inline-start: 0;
+    
+
+}
+
+/*responsive opp til desktop*/
+@media(min-height: 1025px){
+
+}
+
+/*responsive opp til tablet*/
+@media(min-height: 770px){
+
+}
+
+/*responsive opp til mobil*/
+@media(min-height: 340px){
+
+}
